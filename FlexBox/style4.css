@@ -1,0 +1,23 @@
+#container{
+    height:300px;
+    width:700px;
+    background-color: white;
+    margin:10px auto;
+    border:2px solid black;
+    display:flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    flex-wrap:nowrap;
+    flex-basis: 100px;;
+    flex-grow:1;
+}
+h1{
+    text-align: center;
+}
+#container div{
+    height:100px;
+    width:300px;
+    color:white;
+    text-align: center;
+
+}
