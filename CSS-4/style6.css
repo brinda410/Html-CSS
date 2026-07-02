@@ -1,0 +1,35 @@
+.box{
+    height:200px;
+    width:200px;
+    background-color: red;
+    text-align: center;
+    margin-bottom: 40px;;
+    animation-name:boxanimation ;
+    animation-duration:2s ;
+    animation-timing-function:linear ;
+    animation-delay:0 ;
+    animation-iteration-count:4 ;
+    animation-direction: alternate;
+}
+@keyframes boxanimation{
+    from{font-size: 20px;}
+    to{font-size: 40px;}
+    from{background-color:red;}
+    to{background-color:orangered};
+}
+.circle{
+    height:100px;
+    width:100px;
+    border-radius: 50px;
+    background-color: greenyellow;
+    animation-name:moveCircle ;
+    animation-duration:5s;
+    animation-timing-function:normal ;
+    animation-delay:2s ;
+    animation-iteration-count:4 ;
+    animation-direction: normal;
+}
+@keyframes moveCircle {
+    from { transform: translate(0, 0); }
+    to { transform: translate(300px, 300px); }
+}
